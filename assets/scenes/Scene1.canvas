@@ -1,0 +1,86 @@
+{
+  "settings": {
+    "sceneWidth": 800,
+    "sceneHeight": 600,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 6,
+    "stepHeight": 6
+  },
+  "world": {
+    "type": "group",
+    "id": "089019d2-bcc7-4a28-a72c-1742e5c5f3c6",
+    "info": {
+      "editorName": "Scene1",
+      "children": [
+        {
+          "type": "image",
+          "id": "3cab3022-7963-4abc-af67-e71b33578222",
+          "asset": "0",
+          "info": {"editorName": "BG"}
+        },
+        {
+          "type": "group",
+          "id": "cd233d0e-2107-46a6-8776-e146657be9a8",
+          "info": {
+            "editorName": "player",
+            "editorPublic": true,
+            "x": 400,
+            "y": 300,
+            "pivot.x": 0,
+            "pivot.y": 0,
+            "physicsGroup": true,
+            "children": [
+              {
+                "type": "image",
+                "id": "70581360-9e20-4e4b-b100-520f50a51fa9",
+                "asset": "1",
+                "info": {
+                  "editorName": "base1",
+                  "y": 12
+                }
+              },
+              {
+                "type": "image",
+                "id": "64641237-e32e-4e68-9d8a-8a328c62c3b5",
+                "asset": "2",
+                "info": {
+                  "editorName": "side_gun",
+                  "x": 7
+                }
+              },
+              {
+                "type": "image",
+                "id": "bb426ce3-2c4a-47c9-9ad9-090ad09b8966",
+                "asset": "2",
+                "info": {
+                  "editorName": "side_gun1",
+                  "x": 7,
+                  "y": 61,
+                  "scale.y": -1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "BG"
+    },
+    "1": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "base1"
+    },
+    "2": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "side_gun"
+    }
+  }
+}
