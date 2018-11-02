@@ -1,36 +1,8 @@
 /*
-My first game to be fully completed, hopefully ^_^
 
 Contact: kresimir [at] majic [dot] eu
 
 TO DO:
-
-frame rate drop after 30-40 enemies on screen, while only player bullets detect collisions
-menus
-music
-sounds
-"unbreakable shields"
-poison trails/bleeds
-bullet types; unexploded shells
-fire pits
-bosses spawn poison tanks / fire pits
-
-(1) 1
-(2) 1 s
-(3) 2
-(4) 1 G
-(5) 2 s
-(6) 3
-(7) 2 G
-(8) 3 s
-(9) 4
-(10) 3 G
-(11) 4 s
-(12) 5
-(13) 4 G
-(14) 5 s
-(15) 6
-etc.
 
 */
 
@@ -39,22 +11,10 @@ let gameScene = new Phaser.Scene("Game");
 
 gameScene.preload = function(){
 	this.load.image("trooper_brown", "assets/trooper_brown.png");
-        this.load.image("trooper_red", "assets/trooper_red.png");
-        this.load.image("mutant", "assets/mutant.png");
-        this.load.image("heavy", "assets/heavy.png");
-        this.load.image("clone", "assets/clone.png");
-        this.load.image("engineer", "assets/engineer.png");
-        this.load.image("sniper", "assets/sniper.png");
         this.load.image("pyro", "assets/pyro.png");
 
 	this.load.image("emptyPixel", "assets/emptyPixel.png");
         this.load.image("background", "assets/texture1.png");
-	this.load.image("green", "assets/green.png");
-        this.load.image("bullet0", "assets/bullet0.png");
-        this.load.image("bullet1", "assets/bullet1.png");
-        this.load.image("bullet2", "assets/bullet2.png");
-        this.load.image("bullet3", "assets/bullet3.png");
-        this.load.image("bullet4", "assets/bullet4.png");
 	this.load.image("logo", "assets/logo.png");
 };
 
